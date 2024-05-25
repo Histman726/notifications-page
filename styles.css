@@ -182,4 +182,22 @@ main{
     margin-bottom: 5px;
     padding: 12px;
   }
+
+  .post:nth-child(3)::after{
+    right: 0;
+    left: 240px;
+    top: 20px;
+  }
+
+  .post:nth-child(4)::after{
+    right: 0;
+    left: 410px;
+    top: 20px;
+  }
+
+  .post:nth-child(2)::after{
+    right: 0;
+    left: 530px;
+    top: 20px;
+  }
 }
